@@ -1,3 +1,100 @@
 .content-container {
     padding: 1em;
 }
+.content-parent {
+    display: flex;
+    align-items: left;
+    /* flex-direction: column; */
+}
+.content-header {
+    display: flex;
+    justify-content: space-between;
+}
+.content-work {
+    max-width: calc(100% - 20em);
+    margin-bottom: .5em;
+}
+.work::before {
+    content: "\f0b1";
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.5em;
+    font-weight: bold;
+}
+.content-options button {
+    cursor: pointer;
+}
+.study::before {
+    content: "\f549";
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.5em;
+    font-weight: bold;
+}
+.lives::before {
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.5em;
+    font-weight: bold;
+}
+.place::before {
+    content: "\f57d";
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.5em;
+    font-weight: bold;
+}
+.birth::before {
+    content: "\f77c";
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.5em;
+    font-weight: bold;
+}
+.message::before {
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.5em;
+    font-weight: bold;
+}
+.poke::before {
+    content: "\f0a4";
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.5em;
+    font-weight: bold;
+}
+.content-picture {
+    display: inline-flex;
+    gap: .5em;
+}
+.content-picture img {
+    width: 8.875em;
+}
+.header {
+    background: var(--go-white-hover);
+    padding-left: 1ch;
+    max-width: calc(100% - 15em);
+    margin-bottom: 1em;
+}
+.header h2 {
+    font-size: 1.075em;
+}
+.head-me {
+    max-width: 14567em;
+}
+.header-info {
+    padding-left: 1ch;
+    display: flex;
+    justify-content: baseline;
+    border-bottom: 1px solid #acacac;
+    max-width: calc(100% - 15em);
+    margin-bottom: 1em;
+}
+.header-aligned {
+    padding-left: 2em;
+}
+.header-aligned img {
+    width: 60px;
+}
+.head-me span {
+    font-weight: bold;
+}
+.end {
+    margin-bottom: 1em;
+}
