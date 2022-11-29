@@ -1,0 +1,73 @@
+@import url("./Content.css");
+
+aside,
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-container {
+    margin: 0 auto;
+    max-width: 1240px;
+}
+.profile-parent {
+    max-width: 100%;
+    padding: 1em;
+    border-right: 1px solid #acacac;
+}
+.profile-picture,
+.profile-options {
+    margin-bottom: 1em;
+}
+.profile-banner {
+    border-bottom: 1px solid #acacac;
+    margin-bottom: 1em;
+}
+.profile-picture img {
+    width: 12.757em;
+}
+.persons img {
+    width: 5em;
+    object-fit: contain;
+}
+.profile-options li {
+    font-weight: bold;
+}
+.profile-options li:hover {
+    background: var(--go-white-hover);
+    cursor: pointer;   
+}
+.wall::before {
+    content: '\f27a';
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.5em;
+}
+.info::before {
+    content: '\f05a';
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.5em;
+}
+.pics::before {
+    content: '\f87c';
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.5em;
+}
+.question::before {
+    content: '\f059';
+    font-family: "Font Awesome 5 Free";
+    padding-right: 0.5em;
+}
+.persons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+.persons div {
+    padding-left: 1em;
+}
+.person h2,p {
+    font-size: .975em;
+}
+.family h2 {
+    font-size: 1.275em;
+}
