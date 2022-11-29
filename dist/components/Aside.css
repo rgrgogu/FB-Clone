@@ -1,0 +1,41 @@
+@import url("./Content.css");
+
+aside,
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-container {
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+.profile-parent {
+    max-width: 240px;
+    padding: 1em;
+    border-right: 1px solid #acacac;
+}
+
+.profile-picture,
+.profile-options {
+    margin-bottom: 1em;
+}
+
+.profile-picture img {
+    width: 12.757em;
+}
+
+.persons img {
+    width: 5em;
+}
+
+.profile-options {
+    list-style-type: none;
+    
+}
+
+.profile-options li::before {
+    content: '\f27a';
+    font-family: "Font Awesome 5 Free";
+}

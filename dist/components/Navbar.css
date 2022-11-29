@@ -6,9 +6,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: var(--nav-padding);
     margin: 0 auto;
     max-width: 1240px;
-    padding: var(--nav-padding);
 }
 
 .left-panel {
