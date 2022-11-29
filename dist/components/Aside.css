@@ -65,9 +65,8 @@ section {
 .persons div {
     padding-left: 1em;
 }
-.profile-family h2,p {
+.person h2,p {
     font-size: .975em;
-    max-width: 7.575em;
 }
 .family h2 {
     font-size: 1.275em;
