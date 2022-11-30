@@ -1,36 +1,32 @@
 .navbar-container {
     background-color: var(--default-color);
 }
-
 .navbar-parent {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: var(--nav-padding);
+    justify-content: flex-start;
     margin: 0 auto;
     max-width: 1240px;
 }
-
 .left-panel {
     display: flex;
     justify-content: space-around;
     align-items:center;
 }
-
 .fb-selector {
     margin: 0 1em;
 }
-
 #face {
     fill: white;
     width: 8em;
 }
-
 .search-form input {
     width: 30em;
-    padding: 0 .5em;
+    /* width: 46.575em; */
+    padding: 1ch 0.5em;
+    margin-right: 15em;
+    border: none;
 }
-
 .fb-selector i {
     font-size: 1.257em;
     letter-spacing: 5px;
@@ -38,18 +34,22 @@
     cursor: pointer;
     color: var(--nav-link-color);
 }
-
 .fb-selector i:hover {
     color: var(--nav-link-hover);
 }
-
 .right-panel {
     display: table-cell;
     vertical-align: bottom;
 }
-
 .right-panel li {
     display: inline-block;
     padding: 0 .5em;
     color: var(--go-white);
+}
+.search-right {
+    background: var(--light-color);
+    padding: 1ch;
+}
+.right-panel {
+    padding: 1ch;
 }
