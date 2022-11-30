@@ -24,7 +24,7 @@ section {
     margin-bottom: 1em;
 }
 .profile-picture img {
-    width: 12.757em;
+    width: 100%;
 }
 .persons img {
     width: 5em;
@@ -68,6 +68,10 @@ section {
 .person h2,p {
     font-size: .975em;
 }
+.person h2 {
+    color: var(--default-color);
+}
 .family h2 {
     font-size: 1.275em;
+    color:var(--heading-color);
 }
