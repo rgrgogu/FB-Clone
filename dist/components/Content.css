@@ -74,9 +74,6 @@
 .header h2 {
     font-size: 1.075em;
 }
-.head-me {
-    max-width: 14567em;
-}
 .header-info {
     padding-left: 1ch;
     display: flex;
@@ -85,7 +82,10 @@
     margin-bottom: 1em;
 }
 .header-aligned {
-    padding-left: 2em;
+    margin-left: 1em;
+}
+.head {
+    width: 100px;
 }
 .header-aligned img {
     width: 60px;
