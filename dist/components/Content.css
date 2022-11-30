@@ -64,6 +64,7 @@
 }
 .content-picture img {
     width: 7.575em;
+    margin-bottom: .75em;
 }
 .header {
     background: var(--go-white-hover);

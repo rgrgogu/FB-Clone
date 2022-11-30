@@ -74,4 +74,5 @@ section {
 .family h2 {
     font-size: 1.275em;
     color:var(--heading-color);
+    margin-bottom: .75em;
 }
