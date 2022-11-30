@@ -95,6 +95,11 @@
 }
 .head-me span {
     font-weight: bold;
+    color: var(--default-color);
+}
+.blue {
+    font-weight: bold;
+    color: var(--default-color);
 }
 .end {
     margin-bottom: 1em;
