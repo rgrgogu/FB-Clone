@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 .content-work {
-    max-width: calc(100% - 20em);
+    max-width: calc(100% - 15em);
     margin-bottom: .5em;
 }
 .work::before {
@@ -63,7 +63,7 @@
     gap: .5em;
 }
 .content-picture img {
-    width: 8.875em;
+    width: 7.575em;
 }
 .header {
     background: var(--go-white-hover);
@@ -87,6 +87,9 @@
 .head {
     width: 100px;
 }
+.head span {
+    color: var(--heading-color);
+}
 .header-aligned img {
     width: 60px;
 }
@@ -94,5 +97,8 @@
     font-weight: bold;
 }
 .end {
+    margin-bottom: 1em;
+}
+.head-me {
     margin-bottom: 1em;
 }
