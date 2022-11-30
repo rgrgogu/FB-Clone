@@ -4,7 +4,6 @@
 .content-parent {
     display: flex;
     align-items: left;
-    /* flex-direction: column; */
 }
 .content-header {
     display: flex;
@@ -81,7 +80,6 @@
 .header-info {
     padding-left: 1ch;
     display: flex;
-    justify-content: baseline;
     border-bottom: 1px solid #acacac;
     max-width: calc(100% - 15em);
     margin-bottom: 1em;
