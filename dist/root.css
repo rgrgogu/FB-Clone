@@ -1,5 +1,6 @@
 :root {
     --default-color: #3B5998;
+    --light-color: #627AAE;
     --nav-link-color: #17243f;
     --nav-link-hover: #2a4275;
     --nav-padding: 0.757em;
@@ -7,4 +8,5 @@
     --cancel-btn: #e0e0e0;
     --go-white: #fff;
     --go-white-hover: #f1f1f1;
+    --heading-color: #7a7a7a;
 }
