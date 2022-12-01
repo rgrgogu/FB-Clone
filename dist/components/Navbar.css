@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: flex-start;
     margin: 0 auto;
+    padding: 0 1em;
     max-width: 1240px;
 }
 .left-panel {
@@ -24,7 +25,7 @@
     width: 30em;
     /* width: 46.575em; */
     padding: 1ch 0.5em;
-    margin-right: 15.875em;
+    margin-right: 15em;
     border: none;
 }
 .fb-selector i {
