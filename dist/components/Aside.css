@@ -12,7 +12,6 @@ section {
 }
 .profile-parent {
     max-width: 100%;
-    padding: 1em;
     border-right: 1px solid #acacac;
 }
 .profile-picture,
@@ -22,9 +21,11 @@ section {
 .profile-banner {
     border-bottom: 1px solid #acacac;
     margin-bottom: 1em;
+    margin-right: 1em;
 }
 .profile-picture img {
-    width: 100%;
+    width: 294px;
+    padding: 1em 0 0 0;
 }
 .persons img {
     width: 5em;
@@ -69,6 +70,7 @@ section {
     font-size: .975em;
 }
 .person h2 {
+    max-width: 8.875em;
     color: var(--default-color);
 }
 .family h2 {

@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 .content-work {
-    max-width: calc(100% - 15em);
+    max-width: calc(100% - 20em);
     margin-bottom: .5em;
 }
 .work::before {
@@ -63,7 +63,7 @@
     gap: .5em;
 }
 .content-picture img {
-    width: 7.575em;
+    width: 8.575em;
     margin-bottom: .75em;
 }
 .header {
@@ -83,7 +83,8 @@
     margin-bottom: 1em;
 }
 .header-aligned {
-    margin-left: 1em;
+    display: inline-flex;
+    align-items:flex-start;
 }
 .head {
     width: 100px;
@@ -93,6 +94,7 @@
 }
 .header-aligned img {
     width: 60px;
+    margin-right: 1em;
 }
 .head-me span {
     font-weight: bold;
